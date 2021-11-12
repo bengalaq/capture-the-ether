@@ -48,7 +48,7 @@ const config: HardhatUserConfig = {
       accounts, //Sale del mnemonic que creaste por ejemplo en https://iancoleman.io/bip39/
       forking: {
         url: ARCHIVE_URL, // https://eth-ropsten.alchemyapi.io/v2/SECRET
-        blockNumber: 11400694 //Recordar actualizar desafío a desafío
+        blockNumber: 11406564 //Recordar actualizar desafío a desafío
       },
     },
   },
