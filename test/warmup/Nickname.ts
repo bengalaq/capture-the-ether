@@ -6,7 +6,7 @@ let nicknameContract: Contract;
 
 beforeEach(async ()=>{
   const nicknameFactory = await ethers.getContractFactory("CaptureTheEther");
-  nicknameContract = await nicknameFactory.attach("0x71c46Ed333C35e4E6c62D32dc7C8F00D125b4fee");
+  nicknameContract = await nicknameFactory.attach("0x71c46Ed333C35e4E6c62D32dc7C8F00D125b4fee"); //Completar con dirección del contrato CaptureTheEther
 })
 
 describe("Nickname", async ()=>{
